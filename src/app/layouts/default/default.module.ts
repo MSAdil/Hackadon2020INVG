@@ -9,8 +9,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {WalletComponent} from '../../modules/wallet/wallet.component';
-
-
+import {HighchartsChartModule} from 'highcharts-angular';
 
 @NgModule({
   declarations: [
@@ -26,6 +25,7 @@ import {WalletComponent} from '../../modules/wallet/wallet.component';
     MatDividerModule,
     MatCardModule,
     FlexLayoutModule,
-  ]
+    HighchartsChartModule,
+  ],
 })
 export class DefaultModule { }

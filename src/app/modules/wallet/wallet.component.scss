@@ -1,0 +1,43 @@
+#Balance{
+  height: 150px;
+  width: 200px;
+  background-color: aquamarine;
+  float:right;
+  margin:30px;
+  opacity: 1;
+  transition: 0.3s;
+
+}
+#Balance:hover { opacity: 0.6;
+  top: -10px;}
+#Dues:hover { opacity: 0.6;
+  top: -10px;}
+#Profit:hover { opacity: 0.6;
+  top: -10px;}
+#Dues{
+  height: 150px;
+  width: 200px;
+  background-color: lightpink;
+  float:right;
+  margin:30px;
+  opacity: 1;
+  transition: 0.3s;
+}
+#Profit{
+  height: 150px;
+  width: 200px;
+  background-color: teal;
+  float:right;
+  margin:30px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.container{
+  margin-top: 10%;
+  margin-right: 25%;
+}
+#head{
+  text-align: center;
+  margin-top: 4%;
+  font-size: 80px;
+}

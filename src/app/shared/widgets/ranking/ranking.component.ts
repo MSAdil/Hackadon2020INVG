@@ -71,7 +71,7 @@ export class RankingComponent implements OnInit {
           },
           tooltip: {
             headerFormat: '<b>{series.name}</b><br>',
-            pointFormat: '{point.x} Kg, {point.y} Percentile'
+            pointFormat: '{point.x}, {point.y} Percentile'
           }
         }
       },
@@ -269,7 +269,7 @@ export class RankingComponent implements OnInit {
           ,
           [10, 177]
           ,
-          [100, 171]
+          [89, 171]
           ,
           [6, 158]
           ,

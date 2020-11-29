@@ -15,7 +15,7 @@ import { WalletComponent } from './modules/wallet/wallet.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,

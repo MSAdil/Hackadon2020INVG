@@ -16,6 +16,8 @@ import { C02EmissionsComponent } from './widgets/c02-emissions/c02-emissions.com
 import { TraveltimeComponent } from './widgets/traveltime/traveltime.component';
 import { TravelledKmsComponent } from './widgets/travelled-kms/travelled-kms.component';
 import { NumberoftripsComponent } from './widgets/numberoftrips/numberoftrips.component';
+import {AppRoutingModule} from '../app-routing.module';
+import {RouterModule} from '@angular/router';
 
 
 
@@ -40,7 +42,8 @@ import { NumberoftripsComponent } from './widgets/numberoftrips/numberoftrips.co
     _MatMenuDirectivesModule,
     MatMenuModule,
     MatListModule,
-    HighchartsChartModule
+    HighchartsChartModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,
