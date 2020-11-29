@@ -8,13 +8,15 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import {WalletComponent} from '../../modules/wallet/wallet.component';
 
 
 
 @NgModule({
   declarations: [
     DefaultComponent,
-    DashboardComponent
+    DashboardComponent,
+    WalletComponent,
   ],
   imports: [
     CommonModule,

@@ -26,7 +26,7 @@ export class TravelledKmsComponent implements OnInit {
     },
     tooltip: {
       headerFormat: '<b>{series.name}</b><br>',
-      pointFormat: '{point.x:%e. %b}: {point.y:.2f} minutes'
+      pointFormat: '{point.x:%e. %b}: {point.y:.2f} Km'
     },
     legend: {
       enabled: false

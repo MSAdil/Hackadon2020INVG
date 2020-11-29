@@ -11,6 +11,7 @@ import {DefaultModule} from './layouts/default/default.module';
 import { HeaderComponent } from './shared/component/header/header.component';
 import { SidebarComponent } from './shared/component/sidebar/sidebar.component';
 import { FooterComponent } from './shared/component/footer/footer.component';
+import { WalletComponent } from './modules/wallet/wallet.component';
 
 @NgModule({
   declarations: [
